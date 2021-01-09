@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://LuckyD753:LuckyD753@cluster0.hckut.mongodb.net/BOOK_APP_SCOTT?retryWrites=true&w=majority");
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://LuckyD753:km8EtBnMQq0b76Dm@cluster0.hckut.mongodb.net/BOOK_APP_SCOTT?retryWrites=true&w=majority");
 
 // Start the API server
 app.listen(PORT, function() {
